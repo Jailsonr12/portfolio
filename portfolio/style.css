@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-navbar {
+    border-top: none;
+}
+
+.custom-navbar .navbar-nav {
+    margin-top: 0;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header {
+    font-family: "Belanosima", sans-serif;
+    background: radial-gradient( circle at 50% 35%, #555454df, #221717);
+    height: 130vh;
+}
+
+.stard {
+    top: 20%;
+    left: 10%;
+   position: absolute;
+}
+
+.name h1 {
+    font-size: 50px;
+    color: #FFB3B3;
+}
+
+.conteiner-start {
+    color: #FFFF;
+}
+
+
+.app div h1 {
+    font-size: 200px;
+}
+
+
+.develope {
+    margin-top: -30px;
+    margin-bottom: -70px; 
+    
+}
+
+
+.fullStack {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.imgs a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 1.8s ease;
+}
+
+.imgs a:hover svg {
+    transform: translateX(15px);
+    
+}
+
+
+
+.Iam {
+    width: 50%;
+    position: absolute;
+    right: 20%;
+    bottom: 25%;
+}
+
+.Iam h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    text-align: right;
+    color: #c9c9c9;
+    text-transform: uppercase;
+}
+
+main{
+    background-image: linear-gradient(  #5D9BB0,#33C4F5,#B3E5F5,#a881595e, #ffffff);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+
+.ima-project-deskttop{
+    width: 1050px;
+    margin-bottom: -100px;
+}
+.info .title{
+    margin-top: 10px;
+}
+.info-desktop{
+    text-transform: uppercase;
+    font-family: "Belanosima", sans-serif;
+}
+.info{
+    text-transform: uppercase;
+    font-family: "Belanosima", sans-serif;
+}
+.title {
+    margin-bottom: -10px;
+    font-size: 30px;
+    margin-top: -20px;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #050000;
+}
